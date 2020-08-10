@@ -9,6 +9,7 @@ import GlobalError from '@shared/errors/GlobalError';
 import routes from './routes';
 
 import '@shared/infra/typeorm';
+import '@shared/container';
 
 const app = express();
 
